@@ -273,7 +273,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 179.07 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 03ebd6d4-a906-4416-a2fd-738ea26e4779)
-    (property "Reference" "#PWR08" (at 179.07 58.42 0)
+    (property "Reference" "#PWR0109" (at 179.07 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 179.07 57.15 0)
@@ -289,7 +289,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/39654894-3080-4f33-9285-6e0d77694cfd"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR0109") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fb009e65-a9a4-468e-a2ae-bdcc6f13b5d3"
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -321,6 +324,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/39654894-3080-4f33-9285-6e0d77694cfd"
           (reference "Q4") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fb009e65-a9a4-468e-a2ae-bdcc6f13b5d3"
+          (reference "Q12") (unit 1)
+        )
       )
     )
   )
@@ -350,6 +356,9 @@
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/39654894-3080-4f33-9285-6e0d77694cfd"
           (reference "Q6") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fb009e65-a9a4-468e-a2ae-bdcc6f13b5d3"
+          (reference "Q14") (unit 1)
         )
       )
     )
@@ -381,6 +390,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/39654894-3080-4f33-9285-6e0d77694cfd"
           (reference "Q1") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fb009e65-a9a4-468e-a2ae-bdcc6f13b5d3"
+          (reference "Q9") (unit 1)
+        )
       )
     )
   )
@@ -388,7 +400,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 219.71 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6caf9389-1c00-4ec7-a12f-72c5e51d9076)
-    (property "Reference" "#PWR020" (at 219.71 116.84 0)
+    (property "Reference" "#PWR0115" (at 219.71 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 219.71 115.57 0)
@@ -404,7 +416,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/39654894-3080-4f33-9285-6e0d77694cfd"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR0115") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fb009e65-a9a4-468e-a2ae-bdcc6f13b5d3"
+          (reference "#PWR0118") (unit 1)
         )
       )
     )
@@ -436,6 +451,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/39654894-3080-4f33-9285-6e0d77694cfd"
           (reference "Q3") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fb009e65-a9a4-468e-a2ae-bdcc6f13b5d3"
+          (reference "Q11") (unit 1)
+        )
       )
     )
   )
@@ -466,6 +484,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/39654894-3080-4f33-9285-6e0d77694cfd"
           (reference "Q2") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fb009e65-a9a4-468e-a2ae-bdcc6f13b5d3"
+          (reference "Q10") (unit 1)
+        )
       )
     )
   )
@@ -473,7 +494,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 179.07 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8bcdb71-639b-4f95-aa8f-ef09b945e199)
-    (property "Reference" "#PWR016" (at 179.07 116.84 0)
+    (property "Reference" "#PWR0111" (at 179.07 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 179.07 115.57 0)
@@ -489,7 +510,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/39654894-3080-4f33-9285-6e0d77694cfd"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR0111") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fb009e65-a9a4-468e-a2ae-bdcc6f13b5d3"
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -498,7 +522,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 179.07 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa687605-1c0d-4034-94fe-9d08b974df82)
-    (property "Reference" "#PWR09" (at 179.07 87.63 0)
+    (property "Reference" "#PWR0110" (at 179.07 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 179.07 86.36 0)
@@ -514,7 +538,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/39654894-3080-4f33-9285-6e0d77694cfd"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR0110") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fb009e65-a9a4-468e-a2ae-bdcc6f13b5d3"
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -523,7 +550,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 219.71 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bcc32143-3412-4b13-b453-9ebd6d64b5b7)
-    (property "Reference" "#PWR021" (at 219.71 146.05 0)
+    (property "Reference" "#PWR0116" (at 219.71 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 219.71 144.78 0)
@@ -539,7 +566,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/39654894-3080-4f33-9285-6e0d77694cfd"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR0116") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fb009e65-a9a4-468e-a2ae-bdcc6f13b5d3"
+          (reference "#PWR0119") (unit 1)
         )
       )
     )
@@ -571,6 +601,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/39654894-3080-4f33-9285-6e0d77694cfd"
           (reference "Q7") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fb009e65-a9a4-468e-a2ae-bdcc6f13b5d3"
+          (reference "Q15") (unit 1)
+        )
       )
     )
   )
@@ -601,6 +634,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/39654894-3080-4f33-9285-6e0d77694cfd"
           (reference "Q5") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fb009e65-a9a4-468e-a2ae-bdcc6f13b5d3"
+          (reference "Q13") (unit 1)
+        )
       )
     )
   )
@@ -608,7 +644,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 179.07 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eab743bf-73b0-41d6-ab1b-1312e9bb3380)
-    (property "Reference" "#PWR017" (at 179.07 146.05 0)
+    (property "Reference" "#PWR0112" (at 179.07 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 179.07 144.78 0)
@@ -624,7 +660,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/39654894-3080-4f33-9285-6e0d77694cfd"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR0112") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fb009e65-a9a4-468e-a2ae-bdcc6f13b5d3"
+          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -656,6 +695,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/39654894-3080-4f33-9285-6e0d77694cfd"
           (reference "Q8") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fb009e65-a9a4-468e-a2ae-bdcc6f13b5d3"
+          (reference "Q16") (unit 1)
+        )
       )
     )
   )
@@ -663,7 +705,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 219.71 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3190b47-784a-4e84-8f4c-6a093abc8b5a)
-    (property "Reference" "#PWR019" (at 219.71 87.63 0)
+    (property "Reference" "#PWR0114" (at 219.71 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 219.71 86.36 0)
@@ -679,7 +721,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/39654894-3080-4f33-9285-6e0d77694cfd"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR0114") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fb009e65-a9a4-468e-a2ae-bdcc6f13b5d3"
+          (reference "#PWR0117") (unit 1)
         )
       )
     )
@@ -688,7 +733,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 219.71 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f5667602-2339-43c1-9dcd-2003fd519918)
-    (property "Reference" "#PWR018" (at 219.71 58.42 0)
+    (property "Reference" "#PWR0113" (at 219.71 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 219.71 57.15 0)
@@ -704,7 +749,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/39654894-3080-4f33-9285-6e0d77694cfd"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR0113") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fb009e65-a9a4-468e-a2ae-bdcc6f13b5d3"
+          (reference "#PWR0112") (unit 1)
         )
       )
     )

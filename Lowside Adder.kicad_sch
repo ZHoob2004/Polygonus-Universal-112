@@ -571,7 +571,7 @@
   (symbol (lib_id "Simon:VNL5090") (at 135.89 65.405 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06f4ef43-fcd4-4582-bad0-3459bf0aed5c)
-    (property "Reference" "U10" (at 135.89 57.5203 0)
+    (property "Reference" "U17" (at 135.89 57.5203 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "VNL5090" (at 135.89 60.2954 0)
@@ -593,10 +593,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2e1028d9-7b0e-4bfd-a0ec-cbc4907c4bcc"
-          (reference "U10") (unit 1)
+          (reference "U17") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/de31d6fa-be3a-4a6f-8e1e-8e6b8372a269"
-          (reference "U5") (unit 1)
+          (reference "U12") (unit 1)
         )
       )
     )
@@ -605,7 +605,7 @@
   (symbol (lib_id "power:GND") (at 127 55.88 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c49a4b1-83a2-4f50-b9f1-6f5088577529)
-    (property "Reference" "#PWR058" (at 120.65 55.88 0)
+    (property "Reference" "#PWR0136" (at 120.65 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 122.6058 56.007 0)
@@ -621,10 +621,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2e1028d9-7b0e-4bfd-a0ec-cbc4907c4bcc"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR0136") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/de31d6fa-be3a-4a6f-8e1e-8e6b8372a269"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR0121") (unit 1)
         )
       )
     )
@@ -633,7 +633,7 @@
   (symbol (lib_id "Simon:VNL5090") (at 137.16 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d9d19ce-21f0-4386-a9a0-1b98db7f8f7c)
-    (property "Reference" "U12" (at 137.16 84.8253 0)
+    (property "Reference" "U19" (at 137.16 84.8253 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "VNL5090" (at 137.16 87.6004 0)
@@ -655,10 +655,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2e1028d9-7b0e-4bfd-a0ec-cbc4907c4bcc"
-          (reference "U12") (unit 1)
+          (reference "U19") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/de31d6fa-be3a-4a6f-8e1e-8e6b8372a269"
-          (reference "U7") (unit 1)
+          (reference "U14") (unit 1)
         )
       )
     )
@@ -667,7 +667,7 @@
   (symbol (lib_id "power:GND") (at 93.98 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a8dd59e-03a2-43e8-bc09-862db2fd028b)
-    (property "Reference" "#PWR054" (at 93.98 107.95 0)
+    (property "Reference" "#PWR0132" (at 93.98 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 106.68 0)
@@ -683,10 +683,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2e1028d9-7b0e-4bfd-a0ec-cbc4907c4bcc"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR0132") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/de31d6fa-be3a-4a6f-8e1e-8e6b8372a269"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR0117") (unit 1)
         )
       )
     )
@@ -695,7 +695,7 @@
   (symbol (lib_id "power:GND") (at 129.54 97.79 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 469b03e7-f9a6-4978-9d45-349aabeca45d)
-    (property "Reference" "#PWR061" (at 123.19 97.79 0)
+    (property "Reference" "#PWR0139" (at 123.19 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 125.1458 97.917 0)
@@ -711,10 +711,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2e1028d9-7b0e-4bfd-a0ec-cbc4907c4bcc"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR0139") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/de31d6fa-be3a-4a6f-8e1e-8e6b8372a269"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR0124") (unit 1)
         )
       )
     )
@@ -723,7 +723,7 @@
   (symbol (lib_id "power:GND") (at 96.52 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4dd41cd4-407b-4685-ae4a-e5eee9f06d5a)
-    (property "Reference" "#PWR055" (at 96.52 107.95 0)
+    (property "Reference" "#PWR0133" (at 96.52 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.647 105.9942 0)
@@ -739,10 +739,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2e1028d9-7b0e-4bfd-a0ec-cbc4907c4bcc"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR0133") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/de31d6fa-be3a-4a6f-8e1e-8e6b8372a269"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR0118") (unit 1)
         )
       )
     )
@@ -751,7 +751,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 157.48 62.865 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 558658e2-3a88-4983-be3b-a14a8e661c5d)
-    (property "Reference" "D502" (at 160.02 62.5475 90)
+    (property "Reference" "D3" (at 160.02 62.5475 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D_Schottky" (at 160.02 63.8175 90)
@@ -768,10 +768,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/de31d6fa-be3a-4a6f-8e1e-8e6b8372a269"
-          (reference "D502") (unit 1)
+          (reference "D3") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2e1028d9-7b0e-4bfd-a0ec-cbc4907c4bcc"
-          (reference "D702") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -780,7 +780,7 @@
   (symbol (lib_id "power:GND") (at 101.6 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6b2654e5-ac67-42fe-828d-c52ababdc9ca)
-    (property "Reference" "#PWR057" (at 101.6 107.95 0)
+    (property "Reference" "#PWR0135" (at 101.6 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.727 105.9942 0)
@@ -796,10 +796,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2e1028d9-7b0e-4bfd-a0ec-cbc4907c4bcc"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR0135") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/de31d6fa-be3a-4a6f-8e1e-8e6b8372a269"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR0120") (unit 1)
         )
       )
     )
@@ -808,7 +808,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 157.48 104.775 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7503833b-d8e3-49c7-b26c-2a98822a6dbf)
-    (property "Reference" "D504" (at 160.02 104.4575 90)
+    (property "Reference" "D5" (at 160.02 104.4575 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D_Schottky" (at 160.02 105.7275 90)
@@ -825,10 +825,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/de31d6fa-be3a-4a6f-8e1e-8e6b8372a269"
-          (reference "D504") (unit 1)
+          (reference "D5") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2e1028d9-7b0e-4bfd-a0ec-cbc4907c4bcc"
-          (reference "D704") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -837,7 +837,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 157.48 90.17 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87d4dfac-2c31-41d3-a466-6ad6ddb7d074)
-    (property "Reference" "D503" (at 160.02 89.8525 90)
+    (property "Reference" "D4" (at 160.02 89.8525 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D_Schottky" (at 160.02 91.1225 90)
@@ -854,10 +854,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/de31d6fa-be3a-4a6f-8e1e-8e6b8372a269"
-          (reference "D503") (unit 1)
+          (reference "D4") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2e1028d9-7b0e-4bfd-a0ec-cbc4907c4bcc"
-          (reference "D703") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -866,7 +866,7 @@
   (symbol (lib_id "power:GND") (at 128.905 112.395 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 94755d12-d4c7-4807-967c-26144f852b51)
-    (property "Reference" "#PWR060" (at 122.555 112.395 0)
+    (property "Reference" "#PWR0138" (at 122.555 112.395 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 124.5108 112.522 0)
@@ -882,10 +882,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2e1028d9-7b0e-4bfd-a0ec-cbc4907c4bcc"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR0138") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/de31d6fa-be3a-4a6f-8e1e-8e6b8372a269"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR0123") (unit 1)
         )
       )
     )
@@ -894,7 +894,7 @@
   (symbol (lib_id "power:GND") (at 99.06 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a1ab8942-5d40-4a69-9b9a-096a9c4ed3f8)
-    (property "Reference" "#PWR056" (at 99.06 107.95 0)
+    (property "Reference" "#PWR0134" (at 99.06 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 99.187 105.9942 0)
@@ -910,10 +910,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2e1028d9-7b0e-4bfd-a0ec-cbc4907c4bcc"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR0134") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/de31d6fa-be3a-4a6f-8e1e-8e6b8372a269"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR0119") (unit 1)
         )
       )
     )
@@ -922,7 +922,7 @@
   (symbol (lib_id "power:GND") (at 128.27 70.485 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid abeaad0b-e723-47c4-b83a-1c0132ef596c)
-    (property "Reference" "#PWR059" (at 121.92 70.485 0)
+    (property "Reference" "#PWR0137" (at 121.92 70.485 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 123.8758 70.612 0)
@@ -938,10 +938,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2e1028d9-7b0e-4bfd-a0ec-cbc4907c4bcc"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR0137") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/de31d6fa-be3a-4a6f-8e1e-8e6b8372a269"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR0122") (unit 1)
         )
       )
     )
@@ -994,7 +994,7 @@
   (symbol (lib_id "Simon:VNL5090") (at 134.62 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b98b6da9-4c0e-431f-88ce-a5e4e12b2217)
-    (property "Reference" "U9" (at 134.62 42.9153 0)
+    (property "Reference" "U16" (at 134.62 42.9153 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "VNL5090" (at 134.62 45.6904 0)
@@ -1016,10 +1016,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2e1028d9-7b0e-4bfd-a0ec-cbc4907c4bcc"
-          (reference "U9") (unit 1)
+          (reference "U16") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/de31d6fa-be3a-4a6f-8e1e-8e6b8372a269"
-          (reference "U4") (unit 1)
+          (reference "U11") (unit 1)
         )
       )
     )
@@ -1028,7 +1028,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 157.48 48.26 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c078c5b3-1cc9-4743-9d37-6bc13fed96f3)
-    (property "Reference" "D501" (at 160.02 47.9425 90)
+    (property "Reference" "D2" (at 160.02 47.9425 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D_Schottky" (at 160.02 49.2125 90)
@@ -1045,10 +1045,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/de31d6fa-be3a-4a6f-8e1e-8e6b8372a269"
-          (reference "D501") (unit 1)
+          (reference "D2") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2e1028d9-7b0e-4bfd-a0ec-cbc4907c4bcc"
-          (reference "D701") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -1057,7 +1057,7 @@
   (symbol (lib_id "Simon:VNL5090") (at 136.525 107.315 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c46d4d24-31af-45df-bde2-b86b9dd6d6f8)
-    (property "Reference" "U11" (at 136.525 99.4303 0)
+    (property "Reference" "U18" (at 136.525 99.4303 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "VNL5090" (at 136.525 102.2054 0)
@@ -1079,10 +1079,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/2e1028d9-7b0e-4bfd-a0ec-cbc4907c4bcc"
-          (reference "U11") (unit 1)
+          (reference "U18") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/de31d6fa-be3a-4a6f-8e1e-8e6b8372a269"
-          (reference "U6") (unit 1)
+          (reference "U13") (unit 1)
         )
       )
     )

@@ -453,7 +453,7 @@
   (symbol (lib_id "Device:R") (at 68.58 57.15 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 071e2b04-e17c-4bae-b0c3-d4fe93f9dc55)
-    (property "Reference" "R1" (at 68.58 59.69 90)
+    (property "Reference" "R5" (at 68.58 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 68.58 57.15 90)
@@ -476,10 +476,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/eb1c8308-a44a-4a4b-a646-1cfc69b467a3"
-          (reference "R1") (unit 1)
+          (reference "R5") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8bc5218e-e3ef-4de7-bea4-c8f4c6a87c8a"
-          (reference "R12") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -513,10 +513,10 @@
           (reference "#PWR081") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/eb1c8308-a44a-4a4b-a646-1cfc69b467a3"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8bc5218e-e3ef-4de7-bea4-c8f4c6a87c8a"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR0131") (unit 1)
         )
       )
     )
@@ -550,10 +550,10 @@
           (reference "#PWR081") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/eb1c8308-a44a-4a4b-a646-1cfc69b467a3"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8bc5218e-e3ef-4de7-bea4-c8f4c6a87c8a"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR0127") (unit 1)
         )
       )
     )
@@ -587,10 +587,10 @@
           (reference "#PWR081") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/eb1c8308-a44a-4a4b-a646-1cfc69b467a3"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8bc5218e-e3ef-4de7-bea4-c8f4c6a87c8a"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR0126") (unit 1)
         )
       )
     )
@@ -624,10 +624,10 @@
           (reference "#PWR081") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/eb1c8308-a44a-4a4b-a646-1cfc69b467a3"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8bc5218e-e3ef-4de7-bea4-c8f4c6a87c8a"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR0128") (unit 1)
         )
       )
     )
@@ -661,10 +661,10 @@
           (reference "#PWR081") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/eb1c8308-a44a-4a4b-a646-1cfc69b467a3"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8bc5218e-e3ef-4de7-bea4-c8f4c6a87c8a"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR0130") (unit 1)
         )
       )
     )
@@ -673,7 +673,7 @@
   (symbol (lib_id "Simon:TLE9201SG") (at 97.79 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c0d3c25-1a80-422c-b6eb-7501db48431e)
-    (property "Reference" "U2" (at 97.155 46.99 0)
+    (property "Reference" "U3" (at 97.155 46.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLE9201SG" (at 97.155 49.53 0)
@@ -713,10 +713,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/eb1c8308-a44a-4a4b-a646-1cfc69b467a3"
-          (reference "U2") (unit 1)
+          (reference "U3") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8bc5218e-e3ef-4de7-bea4-c8f4c6a87c8a"
-          (reference "U8") (unit 1)
+          (reference "U15") (unit 1)
         )
       )
     )
@@ -725,7 +725,7 @@
   (symbol (lib_id "power:+3.3V") (at 109.22 74.93 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid adcfdaa7-241f-4fb1-ba07-437a277677cd)
-    (property "Reference" "#PWR0128" (at 105.41 74.93 0)
+    (property "Reference" "#PWR0129" (at 105.41 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 113.03 74.93 90)
@@ -741,10 +741,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8bc5218e-e3ef-4de7-bea4-c8f4c6a87c8a"
-          (reference "#PWR0128") (unit 1)
+          (reference "#PWR0129") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/eb1c8308-a44a-4a4b-a646-1cfc69b467a3"
-          (reference "#PWR0115") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -753,7 +753,7 @@
   (symbol (lib_id "Device:C_Small") (at 114.3 60.325 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec3437bf-f5cf-482d-8ab3-c76bcdee83cf)
-    (property "Reference" "C3" (at 116.6368 59.1566 0)
+    (property "Reference" "C5" (at 116.6368 59.1566 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (at 116.6368 61.468 0)
@@ -779,10 +779,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/eb1c8308-a44a-4a4b-a646-1cfc69b467a3"
-          (reference "C3") (unit 1)
+          (reference "C5") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8bc5218e-e3ef-4de7-bea4-c8f4c6a87c8a"
-          (reference "C9") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )
@@ -791,7 +791,7 @@
   (symbol (lib_id "Device:C") (at 80.645 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f24afa40-97ba-4ecd-beec-81539bdccf6b)
-    (property "Reference" "C1" (at 83.566 45.8216 0)
+    (property "Reference" "C3" (at 83.566 45.8216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 83.566 48.133 0)
@@ -814,10 +814,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/eb1c8308-a44a-4a4b-a646-1cfc69b467a3"
-          (reference "C1") (unit 1)
+          (reference "C3") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8bc5218e-e3ef-4de7-bea4-c8f4c6a87c8a"
-          (reference "C7") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -826,7 +826,7 @@
   (symbol (lib_id "power:+3.3V") (at 64.77 57.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2a70343-e323-4469-9813-1630c1782d93)
-    (property "Reference" "#PWR062" (at 68.58 57.15 0)
+    (property "Reference" "#PWR0125" (at 68.58 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 60.96 57.15 90)
@@ -842,10 +842,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8bc5218e-e3ef-4de7-bea4-c8f4c6a87c8a"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR0125") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/eb1c8308-a44a-4a4b-a646-1cfc69b467a3"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -854,7 +854,7 @@
   (symbol (lib_id "Device:C_Small") (at 114.3 48.895 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f3e7397a-0e68-4a6a-af63-613c1a9bac37)
-    (property "Reference" "C2" (at 116.6368 47.7266 0)
+    (property "Reference" "C4" (at 116.6368 47.7266 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (at 116.6368 50.038 0)
@@ -880,10 +880,10 @@
     (instances
       (project "Polygonus-Universal-Base"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/eb1c8308-a44a-4a4b-a646-1cfc69b467a3"
-          (reference "C2") (unit 1)
+          (reference "C4") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8bc5218e-e3ef-4de7-bea4-c8f4c6a87c8a"
-          (reference "C8") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
