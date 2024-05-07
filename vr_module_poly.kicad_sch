@@ -3801,8 +3801,8 @@
     (property "LCSC" "C25744" (at 221.615 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d6e8dc0c-e0e0-4442-bb4e-c28dc2d316cd))
-    (pin "2" (uuid 3898b9fa-2fa1-468f-8989-90c7c8758c32))
+    (pin "1" (uuid b92754db-4259-42a6-bd6c-a9e2a556f6de))
+    (pin "2" (uuid a81f3c35-6290-4e77-a2e6-3b711d5636b4))
     (instances
       (project "vr_module"
         (path "/e0a300d5-4a51-40dd-b030-9d81a289dca6"
@@ -4223,8 +4223,8 @@
     (property "LCSC" "C52923" (at 186.69 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 84ea1a5b-39f1-4dcb-919f-977babb3d410))
-    (pin "2" (uuid a247b102-2126-4642-906e-62b568977651))
+    (pin "1" (uuid 82ad89db-0348-41b2-bd9f-51d088952042))
+    (pin "2" (uuid 9ecab6a7-00f3-44bb-ae33-a55ade5292fd))
     (instances
       (project "vr_module"
         (path "/e0a300d5-4a51-40dd-b030-9d81a289dca6"
@@ -5371,8 +5371,8 @@
     (property "LCSC" "C52923" (at 269.875 74.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 737b9ee9-763b-4289-958d-fe250869b38f))
-    (pin "2" (uuid 0b5b212f-a70f-4f48-bb5c-978baffb02e2))
+    (pin "1" (uuid f320dcd2-25c0-49e6-8d83-1d2d72da9808))
+    (pin "2" (uuid 6d8bf1c1-c27e-4a8e-a569-fc37c918bb79))
     (instances
       (project "vr_module"
         (path "/e0a300d5-4a51-40dd-b030-9d81a289dca6"
