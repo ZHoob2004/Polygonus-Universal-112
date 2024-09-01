@@ -58,8 +58,8 @@ pin                    - wire colour       - Function
 2F2 - AT2              - light grey        - Compressor discharge Temp 
 2F3 - CRANK-           -                   - CRANK VR-
 2F4 - GND              - brown             - GND for APP, TPS Crank hall, CAM hall 
-2G1 - AV10             -                   - WBO analog input
-2G2 - AV11             - pink              - APP2 
+2G1 - AV10             -  pink             - APP2 
+2G2 - AV11             -  		           - WBO analog input
 2G3 - CRANK+           -                   - CRANK VR+
 2G4 - LSU_IP2
 2H1 - AV7              - white/green       - Aux Analog 
