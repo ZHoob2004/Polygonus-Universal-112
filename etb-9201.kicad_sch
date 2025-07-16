@@ -1258,7 +1258,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "071e2b04-e17c-4bae-b0c3-d4fe93f9dc55")
-		(property "Reference" "R5"
+		(property "Reference" "R35"
 			(at 68.58 59.69 90)
 			(effects
 				(font
@@ -1349,7 +1349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a40c0dc-2330-4a15-b08e-b6a7cd28bc4a")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR0131"
 			(at 114.3 69.215 0)
 			(effects
 				(font
@@ -1421,7 +1421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a54c4a2-3ecc-4d4f-a691-49fee2f3cbb1")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR0127"
 			(at 78.74 72.39 0)
 			(effects
 				(font
@@ -1493,7 +1493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e2f4c2e-1fbe-49de-8d48-f32b40b87bbd")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR0126"
 			(at 80.645 36.83 0)
 			(effects
 				(font
@@ -1565,7 +1565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "590e543a-7324-4f11-88b3-e9ae0b106549")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR0128"
 			(at 78.74 74.93 0)
 			(effects
 				(font
@@ -1637,7 +1637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75cb5706-61dc-4cef-8ab5-26507beff425")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR0130"
 			(at 114.3 40.005 0)
 			(effects
 				(font
@@ -1708,7 +1708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c0d3c25-1a80-422c-b6eb-7501db48431e")
-		(property "Reference" "U3"
+		(property "Reference" "U15"
 			(at 97.155 46.99 0)
 			(effects
 				(font
@@ -1919,7 +1919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec3437bf-f5cf-482d-8ab3-c76bcdee83cf")
-		(property "Reference" "C5"
+		(property "Reference" "C28"
 			(at 116.6368 59.1566 0)
 			(effects
 				(font
@@ -2019,7 +2019,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f24afa40-97ba-4ecd-beec-81539bdccf6b")
-		(property "Reference" "C3"
+		(property "Reference" "C26"
 			(at 83.566 45.8216 0)
 			(effects
 				(font
@@ -2181,7 +2181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3e7397a-0e68-4a6a-af63-613c1a9bac37")
-		(property "Reference" "C4"
+		(property "Reference" "C27"
 			(at 116.6368 47.7266 0)
 			(effects
 				(font

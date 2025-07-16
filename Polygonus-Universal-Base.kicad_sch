@@ -12280,17 +12280,6 @@
 		)
 		(uuid "062a754d-3ba4-43a0-b155-58ab9524736c")
 	)
-	(label "HS3"
-		(at 313.69 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0677781e-bde9-493b-859c-1be29abae4cf")
-	)
 	(label "LS14"
 		(at 224.79 181.61 180)
 		(fields_autoplaced yes)
@@ -12456,6 +12445,17 @@
 		)
 		(uuid "16046ba7-3271-4654-8026-638bdb5c9def")
 	)
+	(label "HS3"
+		(at 313.69 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "175ece5d-4fed-48fa-9731-2481d6747f05")
+	)
 	(label "AV11"
 		(at 378.46 175.26 180)
 		(fields_autoplaced yes)
@@ -12488,6 +12488,17 @@
 			(justify right bottom)
 		)
 		(uuid "1b60da9e-992d-46f5-995d-36d37aa7c6a8")
+	)
+	(label "HS1"
+		(at 105.41 78.74 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1c47ba32-275c-4a3a-a9a4-d9129b0ea0cb")
 	)
 	(label "LS16"
 		(at 224.79 186.69 180)
@@ -12554,6 +12565,17 @@
 			(justify right bottom)
 		)
 		(uuid "20f7ca53-9cc0-422b-966f-f4cf544aff46")
+	)
+	(label "HS2"
+		(at 102.87 78.74 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2270f847-2845-4a49-91a5-5b36100e55fc")
 	)
 	(label "CAN_TX2"
 		(at 160.02 261.5873 180)
@@ -12753,17 +12775,6 @@
 			(justify right bottom)
 		)
 		(uuid "2fb969fe-90c8-44ca-8a60-722a1e1b163d")
-	)
-	(label "HS1"
-		(at 313.69 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2fd32f5e-9b41-4328-b7d3-47f3a60394c7")
 	)
 	(label "AV6"
 		(at 262.89 171.45 180)
@@ -13195,6 +13206,17 @@
 		)
 		(uuid "48342d54-0a8e-49c6-8177-0ba271423511")
 	)
+	(label "HS4"
+		(at 100.33 78.74 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "485b6fcf-20bb-4612-a45e-33085576f83d")
+	)
 	(label "CAN2+"
 		(at 313.69 129.54 180)
 		(fields_autoplaced yes)
@@ -13239,6 +13261,17 @@
 		)
 		(uuid "4d443b26-b2cb-4b5e-b6ee-c973aec19e48")
 	)
+	(label "HS2"
+		(at 313.69 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4d7dd7a0-f720-4bc9-bce4-87a525fe21fa")
+	)
 	(label "IGN5"
 		(at 146.05 78.74 270)
 		(fields_autoplaced yes)
@@ -13249,17 +13282,6 @@
 			(justify right bottom)
 		)
 		(uuid "4e51fc4c-ebe9-495e-8124-ccefa0a67b41")
-	)
-	(label "HS2"
-		(at 97.79 78.74 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4f113e7b-988f-4f77-a616-9d0b645896c0")
 	)
 	(label "12V_PROT"
 		(at 262.89 113.03 180)
@@ -13646,6 +13668,17 @@
 		)
 		(uuid "728ce9f4-9dbd-4501-aa54-7eeb47e2128a")
 	)
+	(label "HS3"
+		(at 97.79 78.74 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73a9f0ec-c820-4b27-8972-89cf1a3b05bf")
+	)
 	(label "IGN5"
 		(at 224.79 156.21 180)
 		(fields_autoplaced yes)
@@ -13899,17 +13932,6 @@
 		)
 		(uuid "90bbf52d-f88c-412b-961b-60c0fb8192d2")
 	)
-	(label "HS4"
-		(at 313.69 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "90e2de94-3c27-4310-a949-e2d0be997b51")
-	)
 	(label "USB+"
 		(at 288.29 115.57 180)
 		(fields_autoplaced yes)
@@ -13986,17 +14008,6 @@
 			(justify left bottom)
 		)
 		(uuid "9526861e-838d-4e07-afea-e93d39861bcb")
-	)
-	(label "HS3"
-		(at 102.87 78.74 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "954d2f22-efbe-4fb9-ad67-d3ebe611ae1e")
 	)
 	(label "LS9ADD"
 		(at 80.01 171.45 0)
@@ -14284,17 +14295,6 @@
 			(justify left bottom)
 		)
 		(uuid "a775c41b-ff5c-4a92-bf26-2048b0bef408")
-	)
-	(label "HS1"
-		(at 100.33 78.74 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a7a29d68-65dc-4dec-95ec-e5e3a9e0fca4")
 	)
 	(label "STEPB2"
 		(at 168.91 78.74 270)
@@ -14639,7 +14639,7 @@
 		(uuid "bea313f2-d727-4c5c-a8f8-b5138d490404")
 	)
 	(label "HS4"
-		(at 105.41 78.74 270)
+		(at 313.69 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14647,7 +14647,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "bfb77f9f-627f-4aa6-864e-73eac7da6e84")
+		(uuid "bf1ee3bf-4d32-4ee2-a4db-e680b6971593")
 	)
 	(label "+5V"
 		(at 38.1 229.87 180)
@@ -14890,6 +14890,17 @@
 			(justify right bottom)
 		)
 		(uuid "d3dd14cd-9786-4aef-9e83-45d8b2832d39")
+	)
+	(label "HS1"
+		(at 313.69 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d43b8252-851d-497b-9f8b-45ccbf532069")
 	)
 	(label "IGN7"
 		(at 231.14 259.08 180)
@@ -15155,17 +15166,6 @@
 		)
 		(uuid "e99257f2-588f-4cab-a538-6e296d555716")
 	)
-	(label "HS2"
-		(at 313.69 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ec56010a-e204-43d1-9816-57cdb20f8b60")
-	)
 	(label "LS8"
 		(at 266.7 78.74 270)
 		(fields_autoplaced yes)
@@ -15310,7 +15310,7 @@
 		(uuid "f357051b-2420-4eea-a756-4325237dc042")
 	)
 	(label "LS12"
-		(at 377.19 177.8 180)
+		(at 378.46 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
