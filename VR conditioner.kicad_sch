@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "78900880-d341-4a86-9988-a0d819373d20")
 	(paper "A4")
 	(title_block
@@ -12,7 +12,9 @@
 	)
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -85,7 +87,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -97,7 +99,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -146,9 +148,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -267,6 +272,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_1"
 			(power)
@@ -346,7 +352,8 @@
 			(symbol "GND_1_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -363,10 +370,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Jumper:Jumper_3_Bridged12"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -468,9 +478,9 @@
 			)
 			(symbol "Jumper_3_Bridged12_0_1"
 				(arc
-					(start -0.254 0.508)
+					(start -3.048 0.508)
 					(mid -1.651 0.9912)
-					(end -3.048 0.508)
+					(end -0.254 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -548,9 +558,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Simon:DNP"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -678,6 +691,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Simon:MAX9924"
 			(pin_names
@@ -753,42 +767,6 @@
 			)
 			(symbol "MAX9924_1_1"
 				(pin input line
-					(at -12.7 1.27 0)
-					(length 2.54)
-					(name "IN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -12.7 8.89 0)
 					(length 2.54)
 					(name "IN-"
@@ -806,17 +784,17 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 0 -5.08 0)
-					(length 2.54) hide
-					(name "~"
+				(pin input line
+					(at -12.7 1.27 0)
+					(length 2.54)
+					(name "IN+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -842,17 +820,54 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 12.7 -7.62 180)
+				(pin input line
+					(at -2.54 -12.7 90)
 					(length 2.54)
-					(name "GND"
+					(name "INT_THRS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -861,16 +876,16 @@
 					)
 				)
 				(pin input line
-					(at 12.7 -2.54 180)
+					(at 0 -12.7 90)
 					(length 2.54)
-					(name "ZERO_EN"
+					(name "EXT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -897,16 +912,16 @@
 					)
 				)
 				(pin input line
-					(at 0 -12.7 90)
+					(at 12.7 -2.54 180)
 					(length 2.54)
-					(name "EXT"
+					(name "ZERO_EN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -914,17 +929,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -2.54 -12.7 90)
+				(pin power_in line
+					(at 12.7 -7.62 180)
 					(length 2.54)
-					(name "INT_THRS"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -933,6 +948,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
@@ -1010,7 +1026,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1022,7 +1038,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1036,7 +1052,8 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+3.3V"
 						(effects
 							(font
@@ -1053,6 +1070,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
@@ -1130,7 +1148,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1142,7 +1160,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1156,7 +1174,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+5V"
 						(effects
 							(font
@@ -1173,12 +1192,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1269,7 +1293,30 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Optional setting in Mode C for no adaptive threshold timeout - See MAX9924 Datasheet\nComponents as specified put chip in mode A1.  Flip jumper and install R1219+R2020 for mode C."
+		(exclude_from_sim no)
+		(at 101.6 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04d97b87-8cdb-4ebd-b43b-59c851039dcb")
+	)
+	(text "Yes, we know that the polarity is flipped going in to the VR interface chips.\nWhile originally on accident, it’s no big deal since they invert anyway:\nWhen VR+ transitions to a higher voltage than VR-, VR_OUT will output a rising edge.\n\nSee issue https://github.com/mck1117/proteus/issues/57 for more detail"
+		(exclude_from_sim no)
+		(at 96.52 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "247869fc-c6d2-41da-b3d8-74ac7ebac75d")
 	)
 	(junction
 		(at 125.73 90.17)
@@ -1751,32 +1798,9 @@
 		)
 		(uuid "f9d58e4a-4ba0-44ac-bf00-90707557bbd9")
 	)
-	(text "Optional setting in Mode C for no adaptive threshold timeout - See MAX9924 Datasheet\nComponents as specified put chip in mode A1.  Flip jumper and install R1219+R2020 for mode C."
-		(exclude_from_sim no)
-		(at 101.6 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "04d97b87-8cdb-4ebd-b43b-59c851039dcb")
-	)
-	(text "Yes, we know that the polarity is flipped going in to the VR interface chips.\nWhile originally on accident, it’s no big deal since they invert anyway:\nWhen VR+ transitions to a higher voltage than VR-, VR_OUT will output a rising edge.\n\nSee issue https://github.com/mck1117/proteus/issues/57 for more detail"
-		(exclude_from_sim no)
-		(at 96.52 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "247869fc-c6d2-41da-b3d8-74ac7ebac75d")
-	)
 	(hierarchical_label "VR1_OUT"
 		(shape output)
 		(at 170.18 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1788,7 +1812,6 @@
 	(hierarchical_label "VR1-"
 		(shape input)
 		(at 96.52 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1800,7 +1823,6 @@
 	(hierarchical_label "VR1+"
 		(shape input)
 		(at 96.52 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
